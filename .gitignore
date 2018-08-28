@@ -2,5 +2,6 @@ mods/
 mods1/
 mods2/
 *.class
+target/
 
 .vscode/

@@ -10,14 +10,15 @@ Examples from http://openjdk.java.net/projects/jigsaw/quick-start, following Mav
 4. 4-greetings-world-3: the correct version of greetings-world, from the examples,
 5. 5-greetings-world-4: deliberatedly provoked conflict between modules with the same name and how to circumvent the issue,
 6. 6-nested-modules: nested modules layot tryout, showing its shortcomings as a project layout,
-7. 7-alternative-to-nested-modules: an alternative for a nested modules project layout, which is easier to compile.
+7. 7-alternative-to-nested-modules: an alternative for a nested modules project layout, which is easier to compile,
+8. 8-packaging: example on how to package a modularized application.
 
 ## Best practices
 
 Suppose we have two modules with names 'my.first.module' and 'my.second.module'.
 The folder structure for a modular project should be something like:
 
-src/main/java
+src/main/java:
     - my.first.module
         - module-info.java
         - my/first/module/(all the packages and classes go here)
