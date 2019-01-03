@@ -7,5 +7,5 @@ then
     jlink --module-path $1/jmods/:target/jmods \
 --add-modules org.astro,com.andretc83.greetings \
 --launcher runapp=com.andretc83.greetings --no-header-files --no-man-pages \
---output target/dist
+--strip-debug --output target/dist
 fi
