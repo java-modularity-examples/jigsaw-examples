@@ -13,6 +13,7 @@ Examples from http://openjdk.java.net/projects/jigsaw/quick-start, following Mav
 7. 7-alternative-to-nested-modules: an alternative for a nested modules project layout, which is easier to compile,
 8. 8-packaging: example on how to package a modularized application.
 9. 9-jmod-jlink: example on how to use *jmod* and *jlink* to run a modularized application. This example also adds a Dockerfile for an isolated test.
+10. 10-exploring-jmod: further exploration on *jmod* command.
 
 ## My favorite way to organize a multi-module project and build it by hand
 
