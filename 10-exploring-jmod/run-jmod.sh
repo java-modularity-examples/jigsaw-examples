@@ -8,5 +8,5 @@ jmod create --class-path target/mods/com.andretc83.greetings \
 --main-class com.andretc83.greetings.Main target/jmods/com.andretc83.greetings.jmod
 
 jmod create --class-path target/mods/org.astro --module-version=1.0.0-SNAPSHOT \
- --hash-module com.andretc83.greetings --module-path target/jmods \
+ --hash-modules com.andretc83.greetings --module-path target/jmods \
  target/jmods/org.astro@1.0.0-SNAPSHOT.jmod
