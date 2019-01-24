@@ -1,0 +1,1 @@
+module com.andretc83.another.module { }

@@ -26,3 +26,22 @@ You must execute the following commands in the same order:
 docker build -t <set an image name> .
 docker run -d --name <name of the container> <name of the image>
 ```
+
+## Exploring 'jmod hash'
+
+To be sure that jmod hash hashes a module that is dependent on the module you
+want to add that hash, you can run the commands:
+
+```{bash}
+./clean.sh
+./multi-module-compile.sh
+./run-jmod-hash.sh
+```
+
+After that, try to describe the module:
+
+```{bash}
+jmod describe target/jmods/org.astro@1.0.0-SNAPSHOT.jmod
+```
+
+You should see only hash for **com.andretc83.greetings** module.
